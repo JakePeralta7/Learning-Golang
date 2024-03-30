@@ -29,7 +29,7 @@ func main() {
 		return
 	}
 
-	// Print TXT records
+	// Loops on recieved TXT records
 	for _, txt := range txtRecords {
 		fmt.Println(txt)
 
